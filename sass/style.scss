@@ -5,11 +5,13 @@
 class: Se pueden repetir y utilizar + de una vez
 etiquetas / selectores: etiquetas semanticas del HTML
 */
+
 /*
 llamar selector/id/class {
 Se llama una propiedad: valor;
 }
 */
+
 /*LLAMADO AL DOC HTML*/
 /*Estilos RESET CSS*/
 * {
@@ -37,6 +39,7 @@ a {
 }
 
 /*Estilo HEADER/NAV*/
+
 #header {
   width: 100%;
   height: 80px;
@@ -57,7 +60,6 @@ a {
   display: flex;
   column-gap: 30px;
 }
-
 .nav__logo {
   width: 80px;
   height: 80px;
@@ -67,6 +69,7 @@ a {
 }
 
 /*Estilos del banner*/
+
 .banner__picture {
   position: absolute;
   width: 100%;
@@ -94,8 +97,10 @@ h1 {
 }
 
 /*MAIN ESTILOS*/
+
 #main {
   min-height: 100vh;
+
   margin-top: 110px;
   background-color: #fff;
   text-align: center;
@@ -107,7 +112,6 @@ h1 {
   letter-spacing: 5px;
   text-shadow: #aaa 1px 2px 5px;
 }
-
 .producto__main--oferta,
 .producto__main--oferta p,
 .producto__main--oferta h3 {
@@ -123,7 +127,6 @@ h1 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
 .producto__main--oferta img {
   width: 100%;
   height: 50%;
@@ -143,6 +146,7 @@ button {
 }
 
 /*Estilos del Main "Sobre Nosotros"*/
+
 .mainSobreNosotros {
   width: 100%;
   height: 50vh;
@@ -163,6 +167,7 @@ button {
 }
 
 /*Estilos del FOOTER*/
+
 #footer {
   display: flex;
   align-items: center;
@@ -216,11 +221,13 @@ button {
     justify-content: center;
     background-color: #555;
   }
+
   .footerLinks ul {
     display: block;
     text-align: center;
     background-color: #555;
   }
+
   .footerLinks ul a,
   .footerLinks ul li,
   .footerLinks article h3,
@@ -228,31 +235,35 @@ button {
     background-color: #555;
     display: block;
   }
+
   .footerRedes img {
     width: 50px;
     height: 50px;
     display: inline-block;
     background-color: #555;
   }
+
   .footerRedes {
     background-color: #555;
     width: 100%;
     text-align: center;
   }
+
   .footerMaps iframe {
     height: 280px;
     width: 100%;
   }
+
   .footerAutor {
     text-align: center;
     background-color: #555;
   }
+
   .footerLinks {
     background-color: #555;
   }
+
   .footerLogo img {
     display: none;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
