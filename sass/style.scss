@@ -269,6 +269,7 @@ h1 {
   }
 
   .producto__main--oferta {
+    margin: 20px;
     height: 100%;
     box-shadow: #555 1px 2px 16px;
     background-color: #fff;
@@ -277,5 +278,27 @@ h1 {
   .mainSobreNosotros {
     width: 100%;
     height: 100%;
+  }
+
+  .banner__picture {
+    position: absolute;
+    width: 100%;
+    background-color: #eff;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .banner__picture {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/bodyFondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
   }
 }
