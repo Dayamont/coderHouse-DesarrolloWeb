@@ -116,12 +116,10 @@ h1 {
 
 .producto__main--oferta {
   width: 100px;
-  height: auto;
+  height: 100%;
   margin: 50px auto;
   box-shadow: #555 1px 2px 16px;
   background-color: #fff;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .producto__main--oferta img {
@@ -220,6 +218,7 @@ button {
     display: block;
     text-align: center;
     background-color: #555;
+    width: 100%;
   }
   .footerLinks ul a,
   .footerLinks ul li,
@@ -252,6 +251,15 @@ button {
   }
   .footerLogo img {
     display: none;
+  }
+  .producto__main--oferta {
+    height: 100%;
+    box-shadow: #555 1px 2px 16px;
+    background-color: #fff;
+  }
+  .mainSobreNosotros {
+    width: 100%;
+    height: 100%;
   }
 }
 
